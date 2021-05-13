@@ -1,5 +1,35 @@
 .title {
-
  font-family: Roboto;
+
+}
+.wrapper {
+ margin: auto;
+ width: 80%;
+
+}
+body {
+ margin: 0;
+
+}
+.header {
+ display: flex;
+ justify-content: space-between;
+
+}
+.logo, .menu {
+ display: inline-block;
+
+}
+.menu {
+ display: flex;
+ align-items: center;
+
+}
+.menu__item {
+ padding: 0 13px;
+
+}
+.menu__item:last-child {
+ padding-right: 0;
 
 }
