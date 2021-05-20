@@ -15,7 +15,7 @@ margin: 0;
 .header {
 display: flex;
 justify-content: space-between;
-margin-bottom: 200px;
+margin-bottom: 130px;
 }
 
 
@@ -119,6 +119,7 @@ padding: 0 63% 200px 0;
 .main__title {
 font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
 margin: 0 0 40px 0;
+padding-top: 70px;
 }
 
 .main__title-text_highlight {
