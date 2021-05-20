@@ -11,6 +11,9 @@ body {
 margin: 0;
 }
 
+p {
+  width: 80%;
+}
 
 .header {
 display: flex;
@@ -27,6 +30,7 @@ display: inline-block;
 .menu {
 display: flex;
 align-items: center;
+padding-right: 12px;
 }
 
 .menu__item {
