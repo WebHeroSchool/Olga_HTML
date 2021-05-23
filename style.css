@@ -176,6 +176,19 @@ width: 70%;
 margin-bottom: 20px;
 }
 
+p {
+  width: 100%;
+}
+
+.menu {
+padding-right: 12px;
+}
+
+.menu__item {
+margin-right: 26px;
+font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+}
+
 .main {
 background: top right no-repeat url(img/img2.svg);
 }
