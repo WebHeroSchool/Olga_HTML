@@ -138,3 +138,48 @@ border-radius: 50%;
 background-color: #C8DBFB;
 margin: 0 3px;
 }
+
+
+
+
+
+@media (max-width: 1366px) {
+.wrapper {
+width: 68%;
+}
+.header {
+margin-bottom: 130px;
+}
+p {
+  width: 80%;
+}
+.menu {
+padding-right: 12px;
+}
+.menu__item {
+margin-right: 26px;
+font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+}
+.menu__item:after {
+height: 2px;
+}
+.menu__item_active::after {
+height: 2px;
+}
+.menu__item:hover:after {
+height: 2px;
+}
+.main {
+background: top right no-repeat url(img/img2.svg);
+}
+.main__title {
+font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+}
+.main__subtitle {
+font: 400 18px/21px Roboto, arial, helvetica, sans-serif;
+}
+.main__button {
+font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+padding: 14px 16px;
+}
+}
