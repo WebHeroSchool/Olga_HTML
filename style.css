@@ -186,3 +186,52 @@ font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
 padding: 14px 16px;
 }
 }
+
+
+
+
+@media (max-width: 1024px) {
+.wrapper {
+width: 94%;
+}
+.header {
+margin-bottom: 80px;
+}
+h1 {
+ width: 150%;
+}
+p {
+  width: 100%;
+}
+.menu {
+padding-right: 3px;
+}
+.menu__item {
+margin-right: 26px;
+font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+}
+.menu__item:after {
+height: 2px;
+}
+.menu__item_active::after {
+height: 2px;
+}
+.menu__item:hover:after {
+height: 2px;
+}
+.main {
+background: top right no-repeat url(img/img3.svg);
+padding: 0 63% 80px 0;
+}
+.main__title {
+font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+padding-top: 18px;
+}
+.main__subtitle {
+font: 400 18px/21px Roboto, arial, helvetica, sans-serif;
+}
+.main__button {
+font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+padding: 14px 16px;
+}
+}
