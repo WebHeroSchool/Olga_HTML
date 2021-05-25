@@ -149,10 +149,10 @@ width: 68%;
 margin-bottom: 80px;
 }
 h1 {
- width: 150%;
+width: 150%;
 }
 p {
-  width: 100%;
+width: 100%;
 }
 .menu {
 padding-right: 3px;
@@ -198,10 +198,10 @@ width: 91%;
 margin-bottom: 80px;
 }
 h1 {
- width: 150%;
+width: 150%;
 }
 p {
-  width: 100%;
+width: 100%;
 }
 .menu {
 padding-right: 3px;
@@ -233,5 +233,44 @@ font: 400 18px/21px Roboto, arial, helvetica, sans-serif;
 .main__button {
 font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
 padding: 14px 16px;
+}
+}
+
+
+
+@media (max-width: 768px) {
+h1 {
+width: 100%;
+}
+p {
+width: 70%;
+}
+.menu, .owl-dots {
+display: none;
+}
+.logo {
+opacity: 0;
+}
+.header {
+margin-bottom: 20px;
+}
+.main {
+background: top right no-repeat url(img/img4.svg);
+text-align: center;
+padding: 74% 0 0;
+background-size: 74%;
+background-position: top center;
+}
+.main__title {
+margin-bottom: 44px;
+font: bold 30px/39px pt_serifbold, arial, helvetica, sans-serif;
+}
+.main__subtitle {
+padding-left: 50px;
+margin-bottom: 25px;
+font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+}
+.main__button {
+font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
 }
 }
