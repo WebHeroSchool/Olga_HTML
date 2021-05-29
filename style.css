@@ -11,7 +11,7 @@ margin: 0;
 .header {
 display: flex;
 justify-content: space-between;
-margin-bottom: 125px;
+margin-bottom: 120px;
 padding-left: 4px;
 }
 .logo, .menu {
@@ -99,12 +99,12 @@ background: #C8DBFB;
 }
 .main {
 background: top right no-repeat url(img/img.svg);
-padding: 0 63% 200px 3px;
+padding: 0 63% 268px 3px;
 }
 .main__title {
 font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
 margin: 0 0 36px 0;
-padding-top: 70px;
+padding-top: 74px;
 }
 .main__title-text_highlight {
 background:linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
@@ -131,7 +131,6 @@ opacity: .5;
 .owl-dots {
 text-align: center;
 font-size: 0;
-margin-top: 65px;
 }
 .owl-dot {
 display: inline-block;
@@ -140,7 +139,7 @@ width: 8px;
 height: 8px;
 border-radius: 50%;
 background-color: #C8DBFB;
-margin: 0 3px;
+margin: 0 2px;
 }
 
 #menu__toggle {
