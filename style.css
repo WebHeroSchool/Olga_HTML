@@ -259,7 +259,7 @@ width: 50%;
 
 
 @media (max-width: 768px) {
-.menu, .owl-dots {
+.menu, .owl-dots, .logo__text {
 display: none;
 }
 .header {
