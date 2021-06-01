@@ -428,10 +428,14 @@ top: 44px;
   transition-duration: .25s;
 }
 
+.container {
+
+}
+
 .menu__hamburger {
+  padding-top: 20px;
   margin-top: 0;
   display: inline-block;
-  border: dashed 2px red;
   align-items: center;
   text-align: center;
   color: #000;
@@ -439,10 +443,6 @@ top: 44px;
   text-decoration: none;
   transition-duration: .25s;
 }
-/*.menu__hamburger:first-child {
-  margin-top: 105px;
-}*/
-
 .menu__hamburger:hover {
   background-color: #CFD8DC;
 }
@@ -457,7 +457,6 @@ width: 87%;
 margin-bottom: 0;
 height: 87px;
 }
-
 .main {
 padding: 77% 0 0;
 background-size: 60%;
