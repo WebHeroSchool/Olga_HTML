@@ -219,7 +219,7 @@ padding: 0 63% 145px 0;
 font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
 padding-top: 16px;
 width: 150%;
-margin: 0 0 40px 0;
+margin: 0 0 39px 0;
 }
 .main__subtitle {
 font: 400 18px/21px Roboto, arial, helvetica, sans-serif;
@@ -281,9 +281,9 @@ padding: 0 62% 145px 0;
 }
 .main__title {
 font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
-padding-top: 16px;
+padding-top: 15px;
 width: 150%;
-margin: 0 0 38px 0;
+margin: 0 0 40px 0;
 }
 .main__subtitle {
 font: 400 18px/21px Roboto, arial, helvetica, sans-serif;
@@ -320,7 +320,6 @@ padding: 0 59% 120px 0;
 width: 120%;
 }
 .main__button {
-/*font: 500 14px/16px Roboto, arial, helvetica, sans-serif;*/
 width: 60%;
 }
 }
@@ -333,7 +332,8 @@ display: none;
 width: 90%;
 }
 .header {
-margin-bottom: 30px;
+margin-bottom: 0;
+height: 80px;
 }
 .logo__circle {
 left: 0;
@@ -346,16 +346,15 @@ top: 44px;
 .main {
   background: top right no-repeat url(img/img4.svg);
   text-align: center;
-  padding: 50% 0 0;
+  padding: 55% 0 0;
   background-size: 60%;
   background-position: top center;
-
   }
   .main__title {
   display: inline-block;
   margin-bottom: 25px;
-  padding-top: 10px;
-  font: bold 48px/66px pt_serifbold, arial, helvetica, sans-serif;
+  font: bold 40px/50px pt_serifbold, arial, helvetica, sans-serif;
+  padding-top: 0;
   width: 80%;
   }
   .main__subtitle {
@@ -458,6 +457,10 @@ width: 40%;
 }
 }
 @media (max-width: 592px) {
+  .main__title {
+  font: bold 30px/40px pt_serifbold, arial, helvetica, sans-serif;
+  }
+
 .main__button {
   width: 50%;
 }
@@ -474,12 +477,12 @@ margin-bottom: 0;
 height: 87px;
 }
 .main {
-padding: 77% 0 0;
+padding: 80% 0 0;
 background-size: 85%;
 
 }
 .main__title {
-margin-bottom: 33px;
+margin-bottom: 30px;
 padding-left: 3px;
 font: bold 30px/40px pt_serifbold, arial, helvetica, sans-serif;
 width: 100%;
@@ -491,7 +494,39 @@ margin-bottom: 24px;
 font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
 }
 .main__button {
-width: 56%;
+width: 60%;
+padding-left: 8px;
+}
+}
+
+
+@media (max-width: 320px) {
+.wrapper {
+width: 90%;
+}
+.header {
+margin-bottom: 0;
+height: 70px;
+}
+.main {
+padding: 65% 0 0;
+background-size: 70%;
+
+}
+.main__title {
+margin-bottom: 30px;
+padding-left: 3px;
+font: bold 25px/36px pt_serifbold, arial, helvetica, sans-serif;
+width: 100%;
+}
+.main__subtitle {
+width: 75%;
+padding-left: 5px;
+margin-bottom: 24px;
+font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+}
+.main__button {
+width: 70%;
 padding-left: 8px;
 }
 }
