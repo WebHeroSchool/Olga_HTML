@@ -219,7 +219,7 @@ padding: 0 63% 145px 0;
 font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
 padding-top: 16px;
 width: 150%;
-margin: 0 0 40px 0;
+margin: 0 0 39px 0;
 }
 .main__subtitle {
 font: 400 18px/21px Roboto, arial, helvetica, sans-serif;
@@ -281,9 +281,9 @@ padding: 0 62% 145px 0;
 }
 .main__title {
 font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
-padding-top: 16px;
+padding-top: 15px;
 width: 150%;
-margin: 0 0 38px 0;
+margin: 0 0 40px 0;
 }
 .main__subtitle {
 font: 400 18px/21px Roboto, arial, helvetica, sans-serif;
@@ -477,12 +477,12 @@ margin-bottom: 0;
 height: 87px;
 }
 .main {
-padding: 77% 0 0;
+padding: 80% 0 0;
 background-size: 85%;
 
 }
 .main__title {
-margin-bottom: 33px;
+margin-bottom: 30px;
 padding-left: 3px;
 font: bold 30px/40px pt_serifbold, arial, helvetica, sans-serif;
 width: 100%;
@@ -494,7 +494,7 @@ margin-bottom: 24px;
 font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
 }
 .main__button {
-width: 56%;
+width: 60%;
 padding-left: 8px;
 }
 }
@@ -526,7 +526,7 @@ margin-bottom: 24px;
 font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
 }
 .main__button {
-width: 60%;
+width: 70%;
 padding-left: 8px;
 }
 }
