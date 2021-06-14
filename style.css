@@ -82,6 +82,7 @@ width: 190px;
 height: 30px;
 }
 .logo__circle {
+animation: circle1 2s linear infinite normal;
 width: 28px;
 height: 28px;
 position: absolute;
@@ -92,10 +93,27 @@ background: #0056EC;
 border-radius: 50%;
 opacity: .7;
 }
+@keyframes circle1{
+  0%{
+    transform: rotate(0deg) translateX(9px) rotate(0deg);
+  }
+  100%{
+     transform: rotate(360deg) translateX(9px) rotate(-360deg);
+  }
+}
 .logo__circle_color_blue {
+animation: circle2 2s linear infinite normal -2s;
 left: 8px;
 top: 56%;
 background: #C8DBFB;
+}
+@keyframes circle2{
+  0%{
+    transform: rotate(0deg) translateX(-9px) rotate(0deg);
+  }
+  100%{
+     transform: rotate(360deg) translateX(-9px) rotate(-360deg);
+  }
 }
 .main {
 background: top right no-repeat url(img/img.svg);
